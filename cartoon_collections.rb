@@ -9,7 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)
   i = 0
   if i < planeteer_calls.length
-    planeteer_calls.map{|c| puts "#{c!}.upcase"}
+    planeteer_calls.map{|c| puts "#{c}.upcase"}
     i += 1
   end
 end
