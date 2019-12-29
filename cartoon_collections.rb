@@ -8,7 +8,6 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map{|c| puts "#{c}.upcase"}
-  end
 end
 
 def long_planeteer_calls# code an argument here
